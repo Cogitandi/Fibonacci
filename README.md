@@ -2,10 +2,10 @@
 
 Aplikacja pozwalająca wyliczyć K-ty element ciągu Fibonacciego na podstawie podanej wartości
 
+![Alt text](intro.png?raw=true "Aplikacja")
 ## Technologie
-
-Docker
-Vue.JS
+* Docker
+* Vue.JS
 
 
 ## Domyślne ustawienia

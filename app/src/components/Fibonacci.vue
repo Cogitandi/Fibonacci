@@ -4,7 +4,7 @@
     <input type="text" v-model="counter">
     <button @click="countFibonacciHandler">
       Policz iteracyjnie
-    </button>
+    </button><br>
 
     <span v-show="result !== null">Wynik = {{result}}</span>
   </div>
