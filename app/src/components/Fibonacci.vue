@@ -6,10 +6,6 @@
       Policz iteracyjnie
     </button>
 
-    <button @click="countFibonacciRecursiveHandler">
-      Policz rekurencyjnie
-    </button>
-
     <span v-show="result !== null">Wynik = {{result}}</span>
   </div>
 </template>
