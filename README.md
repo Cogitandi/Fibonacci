@@ -1,20 +1,23 @@
 # Fibonacci
-``
+
 Aplikacja pozwalająca wyliczyć K-ty element ciągu Fibonacciego na podstawie podanej wartości
-``
-Technologie
-``
+
+## Technologie
+
 Docker
 Vue.JS
-``
 
-Uruchomienie:
+
+## Domyślne ustawienia
+* Aplikacja będzie dostępna pod adresem http://localhost:8080/
+
+## Uruchomienie tylko aplikacji internetowej
 ```
-git clone https://github.com/Cogitandi/Fibonacci.git
+docker build -t aplikacja .
+docker run -dp 8080:8080 aplikacja
+```
+
+## Uruchomienie aplikacji równocześnie z testami
+```
 docker compose up
-```
-
-Skutek:
-```
-Uruchomiony zostanie równocześnie aplikacja webowa oraz testy
 ```
