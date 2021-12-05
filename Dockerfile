@@ -18,5 +18,5 @@ COPY /app .
 # build app for production with minification
 RUN npm run build
 
-CMD ["npm", "run", "start"]
-
+EXPOSE 8080
+CMD [ "http-server", "dist" ]
