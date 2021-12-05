@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1638705354742" clover="3.2.0">
+  <project timestamp="1638705354742" name="All files">
+    <metrics statements="20" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="0" coveredmethods="0" elements="28" coveredelements="0" complexity="0" loc="20" ncloc="20" packages="2" files="2" classes="2">
+      <package name="src">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="App.vue" path="/home/student/lab8/app/app/src/App.vue">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="9" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components">
+        <metrics statements="19" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="Fibonacci.vue" path="/home/student/lab8/app/app/src/components/Fibonacci.vue">
+          <metrics statements="19" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
