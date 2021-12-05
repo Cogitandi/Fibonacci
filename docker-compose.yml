@@ -10,7 +10,7 @@ services:
     ports:
       - '8080:8080'
     volumes:
-      - ./:/app
+      - web:/app
     command: ["http-server", "dist"]
 
   test:
@@ -21,5 +21,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./:/app
+      - web:/app
     command: ["npm", "run", "test"]
+volumes:
+    web:
